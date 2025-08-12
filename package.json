@@ -30,13 +30,13 @@
   ],
   "author": "Your Name <your.email@example.com>",
   "license": "MIT",
-  "homepage": "https://github.com/yourusername/npm-storage-package#readme",
+  "homepage": "https://github.com/FlickShot1432/npm-storage-package#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/npm-storage-package.git"
+    "url": "git+https://github.com/FlickShot1432/npm-storage-package.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/npm-storage-package/issues"
+    "url": "https://github.com/FlickShot1432/npm-storage-package/issues"
   },
   "dependencies": {
     "@azure/storage-blob": "^12.28.0",
