@@ -1,6 +1,6 @@
 {
   "name": "npm-storage-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Universal cloud storage package for AWS S3, Google Cloud Storage, and Azure Blob Storage with Express.js integration",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -45,7 +45,7 @@
   },
   "peerDependencies": {
     "express": "^4.0.0 || ^5.0.0",
-    "multer": "^1.4.0 || ^2.0.0"
+    "multer": "^1.4.0 || ^1.4.5-lts || ^2.0.0"
   },
   "peerDependenciesMeta": {
     "express": {
