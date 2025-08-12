@@ -1,6 +1,6 @@
 {
   "name": "npm-storage-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal cloud storage package for AWS S3, Google Cloud Storage, and Azure Blob Storage with Express.js integration",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
