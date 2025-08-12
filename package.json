@@ -1,0 +1,78 @@
+{
+  "name": "npm-storage-package",
+  "version": "1.0.0",
+  "description": "Universal cloud storage package for AWS S3, Google Cloud Storage, and Azure Blob Storage with Express.js integration",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"src/**/*.{ts,js}\"",
+    "lint:fix": "eslint \"src/**/*.{ts,js}\" --fix",
+    "format": "prettier --write \"src/**/*.{ts,js,json,md}\""
+  },
+  "keywords": [
+    "storage",
+    "cloud-storage",
+    "s3",
+    "aws-s3",
+    "gcs",
+    "google-cloud-storage",
+    "azure",
+    "azure-blob-storage",
+    "multer",
+    "express",
+    "file-upload",
+    "middleware",
+    "typescript"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/npm-storage-package#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/npm-storage-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/npm-storage-package/issues"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.28.0",
+    "@google-cloud/storage": "^7.16.0",
+    "aws-sdk": "^2.1692.0"
+  },
+  "peerDependencies": {
+    "express": "^4.0.0 || ^5.0.0",
+    "multer": "^1.4.0 || ^2.0.0"
+  },
+  "peerDependenciesMeta": {
+    "express": {
+      "optional": false
+    },
+    "multer": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/multer": "^1.4.13",
+    "@types/node": "^24.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "express": "^4.19.2",
+    "multer": "^2.0.2",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "EXAMPLES.md"
+  ]
+}
